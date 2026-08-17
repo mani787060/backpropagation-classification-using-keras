@@ -34,7 +34,7 @@ This makes the project a **binary classification problem**.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 A small dataset is created using Pandas:
 
@@ -65,7 +65,7 @@ pd.DataFrame(
 
 ---
 
-## 🧠 Neural Network Approach
+## Neural Network Approach
 
 The project uses a **Feedforward Artificial Neural Network**.
 
@@ -89,7 +89,7 @@ The network learns the relationship between the candidate's features and placeme
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 The notebook follows a complete Deep Learning classification workflow:
 
@@ -107,7 +107,7 @@ The notebook follows a complete Deep Learning classification workflow:
 
 ---
 
-## ⚙️ Backpropagation with Keras
+## Backpropagation with Keras
 
 During training, Keras automatically performs the major steps involved in neural network learning:
 
@@ -131,7 +131,7 @@ The framework handles these calculations internally, allowing the developer to f
 
 ---
 
-## 🔢 Activation Function
+## Activation Function
 
 For binary classification, the output layer uses the **Sigmoid activation function**.
 
@@ -146,7 +146,7 @@ Probability < 0.5 → 0 (Not Placed)
 
 ---
 
-## 📉 Loss Function
+## Loss Function
 
 The model uses a binary classification loss function to measure the difference between the predicted probability and the actual target.
 
@@ -154,7 +154,7 @@ The loss provides the signal required by backpropagation to update the network's
 
 ---
 
-## ⚡ Optimizer
+## Optimizer
 
 An optimizer is responsible for updating the neural network's parameters based on the calculated gradients.
 
@@ -164,7 +164,7 @@ Depending on the notebook configuration, optimizers such as **Gradient Descent o
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 The model can be evaluated using classification metrics such as:
 
@@ -178,7 +178,7 @@ For a small educational dataset, these metrics help understand how the model's p
 
 ---
 
-## 🆚 From-Scratch vs Keras Implementation
+## From-Scratch vs Keras Implementation
 
 This project is particularly useful when viewed alongside the **Backpropagation Classification From Scratch** project.
 
@@ -195,7 +195,7 @@ The comparison demonstrates how modern Deep Learning frameworks abstract complex
 
 ---
 
-## 💡 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 * Artificial Neural Networks
 * Binary Classification
@@ -212,7 +212,7 @@ The comparison demonstrates how modern Deep Learning frameworks abstract complex
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **NumPy**
@@ -223,7 +223,7 @@ The comparison demonstrates how modern Deep Learning frameworks abstract complex
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 backpropagation-classification-using-keras/
@@ -234,7 +234,7 @@ backpropagation-classification-using-keras/
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -250,7 +250,7 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
@@ -268,7 +268,7 @@ Possible extensions include:
 
 ---
 
-## 💡 Final Takeaway
+## Final Takeaway
 
 This project demonstrates how the theoretical concepts of **backpropagation and gradient-based learning** can be translated into a practical neural network using Keras.
 
